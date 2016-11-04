@@ -1,0 +1,130 @@
+body {
+  background-color: #BE90D4 !important;
+}
+
+#title {
+  width: 20%;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+#buttonHolder {
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+#refresh {
+  background-color: #E74C3C;
+  border: none;
+  color: white;
+  font-family: 'Amaranth';
+  margin-right: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  width: 70px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  width: 60%;
+  text-align: center;
+  font-family: 'Amaranth', border: 2px solid #ccc;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#resultsContainer {
+  margin: 20px auto 20px auto;
+  width: 90%;
+}
+
+.channelInfo {
+  padding: 0px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 30%;
+  border: 3px solid white;
+  margin-top: 13px;
+}
+
+.channelLink {
+  font-size: 15px;
+  color: #6441a5;
+  text-align: center;
+  line-height: 50px;
+  height: 40px;
+  font-family: 'Baloo Da', cursive;
+  overflow: hidden;
+}
+
+.statusText {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 50px;
+  height: 50px;
+  font-family: 'Baloo Da', cursive;
+}
+
+.online {
+  background-color: #90C695;
+}
+
+.offline {
+  background-color: #F5D76E;
+}
+
+.closed {
+  background-color: #EC644B;
+}
+
+@media (min-width: 768px) {
+  .channelLink,
+  .statusText {
+    line-height: 100px;
+    height: 70px;
+    font-size: 30px;
+  }
+  .logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+  }
+  .channelInfo {
+    padding: 5px;
+    margin: 5px;
+  }
+  #resultsContainer {
+    margin: 20px auto 20px auto;
+    width: 75%;
+  }
+  #refresh {
+    background-color: #E74C3C;
+    border: none;
+    color: white;
+    font-family: 'Amaranth';
+    margin-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 90px;
+  }
+  input[type=text] {
+    width: 30%;
+    text-align: center;
+    font-family: 'Amaranth', border: 2px solid #ccc;
+    background-color: white;
+  }
+}
